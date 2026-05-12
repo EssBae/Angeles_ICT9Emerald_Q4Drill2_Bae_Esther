@@ -1,0 +1,88 @@
+
+        body {
+            font-family:'Courier New', Courier, monospace;
+            background-image: url(bg.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {            
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            max-width: 700px;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .field {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        input[type="number"] {
+            width: 310px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 0;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #285585;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease;
+            box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+            margin: 10px auto;
+            display: block;
+            width: 30%;
+            font-size: 18px;
+
+        }
+        button:hover {
+            transform: scale(1.02);
+        }
+
+        button:active {
+            transform: scale(0.98);
+            background-color: #1e4166;
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+            vertical-align: middle;
+            margin: 0;
+        }
